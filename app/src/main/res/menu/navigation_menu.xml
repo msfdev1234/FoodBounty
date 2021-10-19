@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item android:title="User">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_MyCoupons"
+                        android:icon="@drawable/ic_baseline_local_offer_24"
+                        android:title="My Coupons" />
+
+                </group>
+            </menu>
+        </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_About_us"
+                    android:icon="@drawable/ic_baseline_people_24"
+
+                    android:title="About us" />
+                <item
+                    android:id="@+id/nav_Faq"
+                    android:icon="@drawable/ic_baseline_help_24"
+                    android:title="FAQ" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Admin">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_AdminAccess"
+                    android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+
+                    android:title="Admin access" />
+
+            </group>
+        </menu>
+    </item>
+
+
+
+
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_main"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+    android:layout_marginBottom="5dp"
+    android:elevation="10dp"
+
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/main_Rel1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+        <ImageView
+            android:id="@+id/restaurent_Img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_free_coupon"
+            android:padding="10dp"
+            android:text="FREE COUPON"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/name_Restrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_Rel1"
+                android:paddingLeft="8dp"
+                android:paddingTop="3dp"
+                android:text="Paradise Biryani"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/details_Restrnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_Restrent"
+                android:paddingLeft="8dp"
+                android:paddingTop="3dp"
+                android:text="15% off all slices from 10:30-1:00 everydat"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/address_Restrnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_Restrnt"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:text="Asifnagar road, Hyderabad"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
